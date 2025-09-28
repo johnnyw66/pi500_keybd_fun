@@ -1,4 +1,4 @@
-# keyboard_scroller.py
+# message_board.py
 from RPiKeyboardConfig.keyboard import RPiKeyboardConfig
 import time
 
