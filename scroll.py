@@ -288,7 +288,8 @@ class KeyboardScroller:
 
 
 #from keyboard_scroller import KeyboardScroller
+if __name__ == "__main__":
 
-# Scroll in red, slow speed
-scroller = KeyboardScroller(text="WELCOME HOME", colour= rgb_to_hsv_tuple(255, 0, 0), delay=0.12)
-scroller.display()
+ # Scroll in red, slow speed
+ scroller = KeyboardScroller(text="YOU HAVE EMAIL", colour= rgb_to_hsv_tuple(255, 0, 0), delay=0.12)
+ scroller.display()
